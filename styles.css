@@ -186,31 +186,6 @@
         width: 100%; 
     } 
 
-    .contact { 
-        padding: 0; 
-    } 
-
-    .contact-content { 
-        flex-direction: column; 
-        align-items: center; 
-        gap: 2rem; 
-    } 
-
-    .contact-form-container { 
-        width: 80%; 
-    } 
-
-    .contact-form .form-controls { 
-        width: 100%; 
-    } 
-
-    .contact-form .form-btn { 
-        width: 100%; 
-    } 
-
-    .contact-details { 
-        width: 80%; 
-    } 
 
     .footer-menu { 
         padding: 0 2rem; 

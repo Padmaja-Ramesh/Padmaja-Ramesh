@@ -81,25 +81,25 @@ body {
     justify-content: space-evenly; 
 } 
 
-/* About section styles */
-.about { 
-    display: flex; 
-    align-items: center; 
-    background-image: linear-gradient(45deg, #363D73, #2794B3); 
-    justify-content: space-between; 
-    width: 100%; 
-} 
+/* Contact section social icons */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    margin-top: 20px;
+    justify-content: center;
+}
 
-.about .about-text {  
-    color: #fff; 
-    padding: 5rem 1rem 5rem 5rem; 
-} 
+.social-icon {
+    font-size: 24px; /* Size of the icons */
+    color: #333; /* Icon color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s;
+}
 
-.about .about-image img { 
-    height: 400px; 
-    width: 450px; 
-    padding: 5rem 5rem 5rem 1rem; 
-} 
+.social-icon:hover {
+    color: #35A99C; /* Change color on hover */
+}
+
 
 /* Portfolio section styles */
 .portfolio { 
@@ -172,39 +172,7 @@ body {
     color: #fff; 
 } 
 
-/* Contact section styles */
-.contact { 
-    padding: 0 5rem; 
-} 
 
-.contact-content { 
-    display: flex; 
-    margin: 3rem 0; 
-    justify-content: space-between; 
-} 
-
-.contact-form-container { 
-    width: 50%; 
-} 
-
-.contact-form { 
-    display: flex; 
-    flex-direction: column; 
-} 
-
-.contact-form .form-controls { 
-    width: 80%; 
-    padding: 10px 0; 
-    margin: 1.67rem 0; 
-} 
-
-.contact-form .form-btn { 
-    width: 83%; 
-} 
-
-.contact-details { 
-    width: 50%; 
-} 
 
 /* Footer Styles */
 .footer { 
