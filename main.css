@@ -58,7 +58,7 @@ body {
 
 /* Main Hero Section Styles */
 .hero { 
-    background-image: url('./Images/Code.png'); 
+    background-image: url('./Images/About.png'); 
     background-repeat: no-repeat; 
     background-size: 100% 100%; 
     width: 100%; 
@@ -90,8 +90,7 @@ body {
     width: 100%; 
 } 
 
-.about .about-text { 
-    width: 450px; 
+.about .about-text {  
     color: #fff; 
     padding: 5rem 1rem 5rem 5rem; 
 } 
