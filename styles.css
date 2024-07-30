@@ -53,6 +53,58 @@
 
 } 
 
+/* CSS for posts */
+/* Posts Section */
+.posts {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.posts-heading {
+    margin-bottom: 30px;
+}
+
+.posts-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.post-card:hover {
+    transform: scale(1.05);
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+}
+
+.post-title {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.post-excerpt {
+    font-size: 1em;
+    color: #666;
+    padding: 0 15px;
+}
+
+.btn.common-btn {
+    margin-top: 15px;
+}
+
+
 
 /* CSS for mobile devices */
 @media screen and (min-width: 280px) and (max-width: 576px) { 

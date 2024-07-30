@@ -245,6 +245,82 @@ body {
     list-style: none; 
 } 
 
+/* Styles for Skills Slideshow */
+.skills-slideshow {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden; /* Ensure that only one slide is visible */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.skills-heading {
+    margin-bottom: 30px;
+}
+
+.skills-heading .my-heading {
+    font-size: 2.5em;
+    color: #363D73; /* Align with header/navbar color */
+}
+
+.skill-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between skill boxes */
+    margin-top: 20px;
+}
+
+.skill-box {
+    background: linear-gradient(45deg, #74D7BB, #53C8B6); /* Gradient color */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.8);
+    color: #f1f1f1;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+
 
 
 
