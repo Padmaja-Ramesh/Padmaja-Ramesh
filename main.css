@@ -81,6 +81,24 @@ body {
     justify-content: space-evenly; 
 } 
 
+/* About */
+.about {
+    background: linear-gradient(45deg, #74D7BB, #53C8B6); /* Gradient color */
+    padding: 50px;
+}
+
+.about-text h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.lead-para, .about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 30px;
+}
+
 /* Contact section social icons */
 .social-icons {
     display: flex;
@@ -157,6 +175,12 @@ body {
     padding: 1rem; 
 } 
 
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
 .icon { 
     height: 100px; 
     width: 100px; 
@@ -172,6 +196,106 @@ body {
     color: #fff; 
 } 
 
+/* Recent Projects Section Styles */
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4.8rem 0;
+    padding: 0 5rem;
+}
+
+.projects-heading h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #363D73;
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-col {
+    text-align: center;
+    width: 30%;
+    margin: 1rem 0;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    border: 2px solid #35A99C;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    background-color: #f9f9f9;
+}
+
+.project-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #363D73;
+    font-weight: 600;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.project-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0.5rem;
+    transition: all 0.25s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.common-btn {
+    background-color: #35A99C;
+    color: #fff;
+    border: 2px solid #35A99C;
+}
+
+.common-btn:hover {
+    background-color: #fff;
+    color: #35A99C;
+}
+
+.ghost-btn {
+    background-color: #fff;
+    color: #35A99C;
+    border: 2px solid #35A99C;
+}
+
+.ghost-btn:hover {
+    background-color: #35A99C;
+    color: #fff;
+}
+
+/* Mobile responsiveness for projects section */
+@media screen and (max-width: 768px) {
+    .project-row {
+        flex-direction: column;
+    }
+
+    .project-col {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
 
 
 /* Footer Styles */
@@ -382,3 +506,62 @@ body {
 .blue-text { 
     color: #363D73; 
 }
+
+/* Mobile responsiveness for services section */
+@media screen and (max-width: 768px) {
+    .my-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .my-col {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 1rem; /* Adds spacing between the cards */
+    }
+
+    .my-card {
+        width: 90%; /* Makes the card narrower for better display */
+        margin: 0 auto; /* Centers the card */
+    }
+
+    .greet-heading {
+        font-size: 1rem; /* Adjust heading font size */
+    }
+
+    .small-para {
+        font-size: 12px; /* Reduce paragraph font size for readability */
+    }
+    .my-row .my-col {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 2rem; /* Space between cards */
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero {
+        background-size: cover; /* Ensures hero background fits better */
+    }
+
+    .hero .intro {
+        margin: 0 2rem; /* Reduce margins for better display on small devices */
+    }
+
+    .greet-heading {
+        font-size: 0.9rem; /* Further adjust heading font size */
+    }
+
+    .small-para {
+        font-size: 11px; /* Further reduce paragraph font size */
+    }
+
+    .my-card {
+        padding: 0.8rem; /* Adjust padding for smaller devices */
+    }
+
+    .icon svg {
+        font-size: 24px; /* Reduce icon size */
+    }
+}
+
