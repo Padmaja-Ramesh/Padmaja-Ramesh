@@ -21,6 +21,15 @@
 
 - ⚡ Fun fact: I love [Baking, Making flower arrangements, Garlands]
 
+  
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Padmaja-Ramesh)  
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Padmaja-Ramesh)](https://github.com/anuraghazra/github-readme-stats)
+
+![GitHub streak stats](https://streak-stats.demolab.com/?user=Padmaja-Ramesh)  
+
+
 ## Contact
 
 [<img src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" alt="Website" align="left" height="22px">][website]
@@ -99,5 +108,6 @@
  <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40" align="left" /> 
 
 <br />
+
 
 
