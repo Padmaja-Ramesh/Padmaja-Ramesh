@@ -1,396 +1,538 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R7PHPJYGM1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head> 
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R7PHPJYGM1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "G-R7PHPJYGM1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
 
-  gtag('config', 'G-R7PHPJYGM1');
-</script>
-    <meta charset="UTF-8"> 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0"> 
-    <title>My Portfolio</title> 
-    <link rel="stylesheet"
-        href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity= 
-"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    <link rel="stylesheet" href="styles.css"> 
-    <link rel="stylesheet" href="main.css"> 
-</head> 
-
-<body> 
+  <body>
     <!-- Navbar header section -->
-    <header class="header"> 
-        <nav class="navbar"> 
-            <div class="logo"> 
-                <h2 class="logo-heading">Padmaja Ramesh</h2> 
-            </div> 
-            <div class="hamburger" id="hamburger"> 
-                <i class="fas fa-bars hamburger-icon"></i> 
-                <i class="fas fa-times cross-icon"></i> 
-            </div> 
-            <div class="menu"> 
-                <ul class="menu-list"> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#home"> 
-                            Home 
-                        </a> 
-                    </li> 
-                    <!--li class="menu-list-items"> 
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h2 class="logo-heading">Padmaja Ramesh</h2>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars hamburger-icon"></i>
+          <i class="fas fa-times cross-icon"></i>
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-items">
+              <a class="links" href="#home"> Home </a>
+            </li>
+            <!--li class="menu-list-items"> 
                         <a class="links" href="#portfolio"> 
                             Portfolio 
                         </a> 
-                    </!--li --> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#about"> 
-                            About 
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#skills"> 
-                            Skills
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#services"> 
-                            My Expo 
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#posts"> 
-                            My Blog 
-                        </a> 
-                    </li> 
-                    <li class="menu-list-items"> 
-                        <a class="links" href="#contact"> 
-                            Contact Me 
-                        </a> 
-                    </li> 
-                </ul> 
-            </div> 
-        </nav> 
-    </header> 
+                    </!--li -->
+            <li class="menu-list-items">
+              <a class="links" href="#about"> About </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#skills"> Skills </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#services"> My Expo </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#posts"> My Blog </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#contact"> Contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!-- Main hero banner -->
-    <section id="home" class="hero"> 
-        <div class="intro"> 
-            <div class="headings"> 
-                <h3 class="greet-heading">Hello, I'm</h3> 
-                <h1 class="my-heading">Padmaja Ramesh</h1> 
-                <h4 class="sub-heading"> 
-                    A Software Engineer transitioning into AI Engineer
-                </h4> 
-            </div> 
-            <div class="intro-buttons">  
-                <a href="./Files/Padmaja Ramesh Resume.pdf" download="Padmaja_Ramesh_Resume.pdf" class="btn ghost-btn">Get Resume</a> 
-            </div> 
-        </div> 
-    </section> 
+    <section id="home" class="hero">
+      <div class="intro">
+        <div class="headings">
+          <h3 class="greet-heading">Hello, I'm</h3>
+          <h1 class="my-heading">Padmaja Ramesh</h1>
+          <h4 class="sub-heading">
+            A Software Engineer transitioning into AI Engineer
+          </h4>
+        </div>
+        <div class="intro-buttons">
+          <a
+            href="./Files/Padmaja Ramesh Resume.pdf"
+            download="Padmaja_Ramesh_Resume.pdf"
+            class="btn ghost-btn"
+            >Get Resume</a
+          >
+        </div>
+      </div>
+    </section>
 
     <!-- About Section -->
-    <section id="about" class="about" > 
-        <div class="about-text"> 
-            <h1 class="my-heading text-center">About Me</h1> 
-            <p class="lead-para " style="margin: 30px;">
-                Hi! I'm Padmaja, a seasoned software developer with a specialization in full-stack development. 
-                My expertise spans across backend technologies like Java, Spring Framework, and RESTful API design, 
-                as well as front-end technologies including JavaScript, Vue.js, and React.js. With over 2+ years of experience, 
-                I have engineered dynamic, responsive user interfaces and architected scalable, high-performance applications.
-            </p>
-            <p style="margin: 30px;">
-                As a dedicated mother and an ardent lifelong learner, I am perpetually excited about the evolving landscape of software technology. 
-                Currently, I am enhancing my proficiency in AI, adding to my diverse technical skill set. My professional journey is 
-                characterized by a commitment to leveraging cutting-edge technologies, implementing best practices in CI/CD pipelines 
-                with Jenkins, and performing rigorous automated testing using JUnit to ensure the robustness and reliability of applications.
-            </p>
-        </div> 
-    </section> 
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <h1 class="my-heading text-center">About Me</h1>
+        <p class="lead-para" style="margin: 30px">
+          Hi! I'm Padmaja, a seasoned software developer with a specialization
+          in full-stack development. My expertise spans across backend
+          technologies like Java, Spring Framework, and RESTful API design, as
+          well as front-end technologies including JavaScript, Vue.js, and
+          React.js. With over 2+ years of experience, I have engineered dynamic,
+          responsive user interfaces and architected scalable, high-performance
+          applications.
+        </p>
+        <p style="margin: 30px">
+          As a dedicated mother and an ardent lifelong learner, I am perpetually
+          excited about the evolving landscape of software technology.
+          Currently, I am enhancing my proficiency in AI, adding to my diverse
+          technical skill set. My professional journey is characterized by a
+          commitment to leveraging cutting-edge technologies, implementing best
+          practices in CI/CD pipelines with Jenkins, and performing rigorous
+          automated testing using JUnit to ensure the robustness and reliability
+          of applications.
+        </p>
+      </div>
+    </section>
 
     <!-- Skills Slideshow Section -->
-    <section id="skills" class="skills"> 
-        <div class="skills-heading"> 
-            <h1 class="my-heading text-center">Skills</h1> 
-        </div> 
-        <div class="skills-slideshow">
-            <div class="slides">
-                <!-- Slide for Programming Languages -->
-                <div class="slide">
-                    <h3 class="skill-title">Programming Languages</h3>
-                    <div class="skill-boxes">
-                        <div class="skill-box">JavaScript</div>
-                        <div class="skill-box">Java</div>
-                        <div class="skill-box">Python</div>
-                        <div class="skill-box">SQL</div>
-                    </div>
-                </div>
-                <!-- Slide for Web Development -->
-                <div class="slide">
-                    <h3 class="skill-title">Web Development</h3>
-                    <div class="skill-boxes">
-                        <div class="skill-box">HTML</div>
-                        <div class="skill-box">CSS</div>
-                        <div class="skill-box">React.js</div>
-                        <div class="skill-box">Vue.js</div>
-                        <div class="skill-box">Node.js</div>
-                    </div>
-                </div>
-                <!-- Slide for Data Analysis & Visualization -->
-                <div class="slide">
-                    <h3 class="skill-title">Data Analysis & Visualization</h3>
-                    <div class="skill-boxes">
-                        <div class="skill-box">Power BI</div>
-                        <div class="skill-box">Excel</div>
-                        <div class="skill-box">Data Transformation</div>
-                        <div class="skill-box">Visualization Techniques</div>
-                    </div>
-                </div>
-                <!-- Slide for Database Management -->
-                <div class="slide">
-                    <h3 class="skill-title">Database Management</h3>
-                    <div class="skill-boxes">
-                        <div class="skill-box">MongoDB</div>
-                        <div class="skill-box">SQL Databases</div>
-                        <div class="skill-box">Data Modeling</div>
-                    </div>
-                </div>
-                <!-- Slide for Tools & Technologies -->
-                <div class="slide">
-                    <h3 class="skill-title">Tools & Technologies</h3>
-                    <div class="skill-boxes">
-                        <div class="skill-box">Git</div>
-                        <div class="skill-box">GitHub</div>
-                        <div class="skill-box">Jenkins</div>
-                        <div class="skill-box">Vercel</div>
-                        <div class="skill-box">REST APIs</div>
-                    </div>
-                </div>
+    <section id="skills" class="skills">
+      <div class="skills-heading">
+        <h1 class="my-heading text-center">Skills</h1>
+      </div>
+      <div class="skills-slideshow">
+        <div class="slides">
+          <!-- Slide for Programming Languages -->
+          <div class="slide">
+            <h3 class="skill-title">Programming Languages</h3>
+            <div class="skill-boxes">
+              <div class="skill-box">JavaScript</div>
+              <div class="skill-box">Java</div>
+              <div class="skill-box">Python</div>
+              <div class="skill-box">SQL</div>
             </div>
-            <!-- Navigation -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <!-- Slide for Web Development -->
+          <div class="slide">
+            <h3 class="skill-title">Web Development</h3>
+            <div class="skill-boxes">
+              <div class="skill-box">HTML</div>
+              <div class="skill-box">CSS</div>
+              <div class="skill-box">React.js</div>
+              <div class="skill-box">Vue.js</div>
+              <div class="skill-box">Node.js</div>
+            </div>
+          </div>
+          <!-- Slide for Data Analysis & Visualization -->
+          <div class="slide">
+            <h3 class="skill-title">Data Analysis & Visualization</h3>
+            <div class="skill-boxes">
+              <div class="skill-box">Power BI</div>
+              <div class="skill-box">Excel</div>
+              <div class="skill-box">Data Transformation</div>
+              <div class="skill-box">Visualization Techniques</div>
+            </div>
+          </div>
+          <!-- Slide for Database Management -->
+          <div class="slide">
+            <h3 class="skill-title">Database Management</h3>
+            <div class="skill-boxes">
+              <div class="skill-box">MongoDB</div>
+              <div class="skill-box">SQL Databases</div>
+              <div class="skill-box">Data Modeling</div>
+            </div>
+          </div>
+          <!-- Slide for Tools & Technologies -->
+          <div class="slide">
+            <h3 class="skill-title">Tools & Technologies</h3>
+            <div class="skill-boxes">
+              <div class="skill-box">Git</div>
+              <div class="skill-box">GitHub</div>
+              <div class="skill-box">Jenkins</div>
+              <div class="skill-box">Vercel</div>
+              <div class="skill-box">REST APIs</div>
+            </div>
+          </div>
         </div>
+        <!-- Navigation -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
     </section>
 
     <!-- Services Section -->
-    <section class="services" id="services"> 
-        <div class="services-heading"> 
-            <h1 class="my-heading text-center">My Experiences</h1> 
-        </div> 
-        <div class="services-content"> 
-            <div class="my-row"> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-paint-brush"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">Junior Software Developer, USAA</h3> 
-                        <p class="small-para"> 
-                            From September 2022 to February 2023. In this role, I played a key part in stabilizing a Java Gradle-based application, improving its database-mainframe connections, which significantly boosted our release efficiency through CI/CD automation using GitLab. My close collaboration with testers and senior developers ensured the seamless functionality of our applications, while my work on managing software testing and bug tracking reduced issue resolution time by 20%. Utilizing Selenium for automated testing and the REST framework for API testing, I conducted comprehensive manual and automated tests to ensure our applications met the highest performance standards.
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fa-solid fa-code"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text"> 
-                            Full Stack Developer, Vanguard 
-                        </h3> 
-                        <p class="small-para"> 
-                            From August 2021 to September 2022, In this position, I updated dynamic and responsive web applications using JavaScript and Vue.js, adhering to the MVC architecture pattern. My work included integrating the ag-Grid-Vue component and the Plotly library for enhanced data visualization. Effective code change management was achieved through the use of Git and BitBucket. I also analyzed user interface and experience requirements to ensure our software solutions aligned with business needs. Extensive manual testing on these dynamic web applications ensured adherence to quality standards.
-                        </p> 
-                    </div> 
-                </div> 
-                <div class="my-col"> 
-                    <div class="my-card"> 
-                        <div class="icon"> 
-                            <i class="fas fa-chart-line"></i> 
-                        </div> 
-                        <h3 class="greet-heading blue-text">Software Developer, IBM </h3> 
-                        <p class="small-para"> 
-                                From April 2021 to June 2021, In this role, I realigned requirements and assessed feasibility, selecting appropriate technologies for enhancements. My responsibilities included implementing Continuous Integration with Jenkins to streamline build processes, and managing local Kubernetes deployments to optimize application performance in containers. I executed test cases and scenarios to validate software functionality, identifying and documenting defects for resolution.
-                        </p> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
-        <!-- Recent Projects Section -->
-    <section class="projects" id="projects">
-        <div class="projects-heading">
-            <h1 class="my-heading text-center">Recent Projects</h1>
-        </div>
-        <div class="projects-content">
-            <div class="project-row">
-                <!-- Pantry Management AI Project -->
-                <div class="project-col">
-                    <div class="project-card">
-                        <h3 class="greet-heading blue-text">Pantry Management AI</h3>
-                        <p class="small-para">
-                            A smart pantry management system using AI to track and manage your pantry inventory efficiently.
-                        </p>
-                        <a href="https://padhu-pantry.vercel.app/" target="_blank" class="project-link common-btn">View Live</a>
-                        <a href="https://github.com/Padmaja-Ramesh/Pantry-management-AI-Project.git" target="_blank" class="project-link ghost-btn">View Code</a>
-                    </div>
-                </div>
-                <!-- AI Customer Support Project -->
-                <div class="project-col">
-                    <div class="project-card">
-                        <h3 class="greet-heading blue-text">AI Customer Support</h3>
-                        <p class="small-para">
-                            An AI-powered customer support system to assist users with inquiries for a coffee shop.
-                        </p>
-                        <a href="https://coffee-shop-seven-lemon.vercel.app/" target="_blank" class="project-link common-btn">View Live</a>
-                        <a href="https://github.com/Padmaja-Ramesh/AI-customerSupport.git" target="_blank" class="project-link ghost-btn">View Code</a>
-                    </div>
-                </div>
-                <!-- Flash Genius Flashcard Project -->
-                <div class="project-col">
-                    <div class="project-card">
-                        <h3 class="greet-heading blue-text">Flash Genius Flashcards</h3>
-                        <p class="small-para">
-                            A flashcard generation platform that allows users to create and study flashcards for effective learning.
-                        </p>
-                        <a href="https://flash-genius-flashcard.vercel.app/" target="_blank" class="project-link common-btn">View Live</a>
-                        <a href="https://github.com/Padmaja-Ramesh/Flash-genius.git" target="_blank" class="project-link ghost-btn">View Code</a>
-                    </div>
-                </div>
+    <section class="services" id="services">
+      <div class="services-heading">
+        <h1 class="my-heading text-center">My Experiences</h1>
+      </div>
+      <div class="services-content">
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-paint-brush"></i>
+              </div>
+              <h3 class="greet-heading blue-text">
+                Junior Software Developer, USAA
+              </h3>
+              <p class="small-para">
+                From September 2022 to February 2023. In this role, I played a
+                key part in stabilizing a Java Gradle-based application,
+                improving its database-mainframe connections, which
+                significantly boosted our release efficiency through CI/CD
+                automation using GitLab. My close collaboration with testers and
+                senior developers ensured the seamless functionality of our
+                applications, while my work on managing software testing and bug
+                tracking reduced issue resolution time by 20%. Utilizing
+                Selenium for automated testing and the REST framework for API
+                testing, I conducted comprehensive manual and automated tests to
+                ensure our applications met the highest performance standards.
+              </p>
             </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="greet-heading blue-text">
+                Full Stack Developer, Vanguard
+              </h3>
+              <p class="small-para">
+                From August 2021 to September 2022, In this position, I updated
+                dynamic and responsive web applications using JavaScript and
+                Vue.js, adhering to the MVC architecture pattern. My work
+                included integrating the ag-Grid-Vue component and the Plotly
+                library for enhanced data visualization. Effective code change
+                management was achieved through the use of Git and BitBucket. I
+                also analyzed user interface and experience requirements to
+                ensure our software solutions aligned with business needs.
+                Extensive manual testing on these dynamic web applications
+                ensured adherence to quality standards.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3 class="greet-heading blue-text">Software Developer, IBM</h3>
+              <p class="small-para">
+                From April 2021 to June 2021, In this role, I realigned
+                requirements and assessed feasibility, selecting appropriate
+                technologies for enhancements. My responsibilities included
+                implementing Continuous Integration with Jenkins to streamline
+                build processes, and managing local Kubernetes deployments to
+                optimize application performance in containers. I executed test
+                cases and scenarios to validate software functionality,
+                identifying and documenting defects for resolution.
+              </p>
+            </div>
+          </div>
+          <!-- Headstarter Accelerator -->
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <h3 class="greet-heading blue-text">
+                Headstarter Accelerator Program
+              </h3>
+              <p class="small-para">
+                Currently enrolled in a 4-month intensive accelerator program
+                focused on AI and full-stack development. Working on
+                cutting-edge projects including AI-powered applications,
+                real-time systems, and advanced machine learning
+                implementations. The program emphasizes hands-on experience with
+                modern technologies and industry best practices.
+              </p>
+            </div>
+          </div>
+          <!-- Beyond Exam -->
+          <div class="my-col">
+            <div class="my-card">
+              <div class="icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3 class="greet-heading blue-text">
+                Tester/Developer Intern, Beyond Exam
+              </h3>
+              <p class="small-para">
+                Currently interning as a Tester/Developer, focusing on quality
+                assurance and software development. Working on implementing and
+                testing new features, ensuring application reliability, and
+                contributing to the development of robust educational technology
+                solutions.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-
+    <!-- Recent Projects Section -->
+    <section class="projects" id="projects">
+      <div class="projects-heading">
+        <h1 class="my-heading text-center">Recent Projects</h1>
+      </div>
+      <div class="projects-content">
+        <div class="project-row">
+          <!-- Pantry Management AI Project -->
+          <div class="project-col">
+            <div class="project-card">
+              <h3 class="greet-heading blue-text">Pantry Management AI</h3>
+              <p class="small-para">
+                A smart pantry management system using AI to track and manage
+                your pantry inventory efficiently.
+              </p>
+              <a
+                href="https://padhu-pantry.vercel.app/"
+                target="_blank"
+                class="project-link common-btn"
+                >View Live</a
+              >
+              <a
+                href="https://github.com/Padmaja-Ramesh/Pantry-management-AI-Project.git"
+                target="_blank"
+                class="project-link ghost-btn"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <!-- AI Customer Support Project -->
+          <div class="project-col">
+            <div class="project-card">
+              <h3 class="greet-heading blue-text">AI Customer Support</h3>
+              <p class="small-para">
+                An AI-powered customer support system to assist users with
+                inquiries for a coffee shop.
+              </p>
+            </div>
+          </div>
+          <!-- ZenJourney Travel Project -->
+          <div class="project-col">
+            <div class="project-card">
+              <h3 class="greet-heading blue-text">ZenJourney Travel</h3>
+              <p class="small-para">
+                An AI-powered travel planning platform using Next.js and Python,
+                with Google's Gemini AI for intelligent itinerary generation.
+                Frontend deployed on Vercel and backend on Render.
+              </p>
+              <a
+                href="https://zenjourney-travel.vercel.app/"
+                target="_blank"
+                class="project-link common-btn"
+                >View Live</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Posts Section -->
-    <section id="posts" class="posts"> 
-        <div class="posts-heading"> 
-            <h1 class="my-heading text-center">My Blog Posts</h1> 
-        </div> 
-        <div class="posts-content"> 
-            <div class="my-row"> 
-                <!-- Example Post 1 -->
-                <div class="my-col"> 
-                    <div class="my-card post-card"> 
-                        <h3 class="post-title">Understanding the MERN Stack: A Restaurant Menu Ordering Analogy</h3> 
-                        <p class="post-excerpt">
-                            Dive into the MERN stack through a unique restaurant analogy. Learn how MongoDB, Express, React, and Node.js work together, with the dining area as the front-end, the kitchen as the back-end, the pantry as the database, and waiters as the REST API. This approach simplifies the concepts of full-stack development and showcases the power of MERN in a relatable way.
-                        </p> 
-                        <a href="https://medium.com/@padhu.ramsh/mern-general-overview-e61c50949e8e" class="btn common-btn" target="_blank">Read More</a>
-                    </div>
-                </div> 
-                <!-- Post about Power BI Dashboard -->
-                <div class="my-col"> 
-                    <div class="my-card post-card"> 
-                        <h3 class="post-title">Creating a Comprehensive Power BI Dashboard for Healthcare Workforce Analysis</h3> 
-                        <p class="post-excerpt">
-                            In this post, I will demonstrate my skills in data analysis and visualization using Power BI. I will walk you through the process of creating a detailed Power BI dashboard using a healthcare workforce dataset, which includes information on mental, physical, and dental health areas. This project highlights my ability to handle large datasets, perform data transformation, and create insightful visualizations.
-                        </p> 
-                        <a href="https://medium.com/@padmajaramesh1205/creating-a-comprehensive-power-bi-dashboard-for-healthcare-workforce-analysis-c282fe605ad4" class="btn common-btn" target="_blank">Read More</a>
-                    </div> 
-                </div> 
-                        <!-- Post about Mastering Power BI -->
-                <div class="my-col"> 
-                    <div class="my-card post-card"> 
-                        <h3 class="post-title">Mastering Power BI: A Comprehensive Guide</h3> 
-                        <p class="post-excerpt">
-                            Power BI is a powerful tool for data analysis and visualization. In this post, we’ll dive deep into various features of Power BI, including Power Query, data transformation, data types, and advanced functionalities like DAX and web scraping. This guide is designed to help you master Power BI and leverage its full potential for your data analysis needs.
-                        </p> 
-                        <a href="https://medium.com/@padmajaramesh1205/mastering-power-bi-a-comprehensive-guide-0d63c8647d27" class="btn common-btn" target="_blank">Read More</a>
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-    </section> 
-
-
-    <!-- Contact me section -->
-    <section class="contact" id="contact"> 
-        <div class="contact-heading"> 
-            <h1 class="my-heading text-center">LET'S CONNECT!</h1> 
-        </div> 
-        <div class="contact-content"> 
-            <div class="contact-details"> 
-                <h1 class="greet-heading" style="margin: 30px;">I'm excited to engage in meaningful conversations and explore potential collaborations. Whether you have exciting opportunities, questions about my portfolio, or just want to connect, feel free to reach out. Looking forward to connecting with you!</h1> 
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/padmaja-ramesh/" class="social-icon" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="mailto:padmajaramesh1205@gmail.com" class="social-icon" target="_blank" title="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://medium.com/@padhu.ramsh" class="social-icon" target="_blank" title="Medium">
-                        <i class="fab fa-medium-m"></i>
-                    </a>
-                </div> 
-            </div> 
-        </div> 
+    <section id="posts" class="posts">
+      <div class="posts-heading">
+        <h1 class="my-heading text-center">My Blog Posts</h1>
+      </div>
+      <div class="posts-content">
+        <div class="my-row">
+          <!-- Example Post 1 -->
+          <div class="my-col">
+            <div class="my-card post-card">
+              <h3 class="post-title">
+                Understanding the MERN Stack: A Restaurant Menu Ordering Analogy
+              </h3>
+              <p class="post-excerpt">
+                Dive into the MERN stack through a unique restaurant analogy.
+                Learn how MongoDB, Express, React, and Node.js work together,
+                with the dining area as the front-end, the kitchen as the
+                back-end, the pantry as the database, and waiters as the REST
+                API. This approach simplifies the concepts of full-stack
+                development and showcases the power of MERN in a relatable way.
+              </p>
+              <a
+                href="https://medium.com/@padhu.ramsh/mern-general-overview-e61c50949e8e"
+                class="btn common-btn"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <!-- Post about Power BI Dashboard -->
+          <div class="my-col">
+            <div class="my-card post-card">
+              <h3 class="post-title">
+                Creating a Comprehensive Power BI Dashboard for Healthcare
+                Workforce Analysis
+              </h3>
+              <p class="post-excerpt">
+                In this post, I will demonstrate my skills in data analysis and
+                visualization using Power BI. I will walk you through the
+                process of creating a detailed Power BI dashboard using a
+                healthcare workforce dataset, which includes information on
+                mental, physical, and dental health areas. This project
+                highlights my ability to handle large datasets, perform data
+                transformation, and create insightful visualizations.
+              </p>
+              <a
+                href="https://medium.com/@padmajaramesh1205/creating-a-comprehensive-power-bi-dashboard-for-healthcare-workforce-analysis-c282fe605ad4"
+                class="btn common-btn"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <!-- Post about Mastering Power BI -->
+          <div class="my-col">
+            <div class="my-card post-card">
+              <h3 class="post-title">
+                Mastering Power BI: A Comprehensive Guide
+              </h3>
+              <p class="post-excerpt">
+                Power BI is a powerful tool for data analysis and visualization.
+                In this post, we'll dive deep into various features of Power BI,
+                including Power Query, data transformation, data types, and
+                advanced functionalities like DAX and web scraping. This guide
+                is designed to help you master Power BI and leverage its full
+                potential for your data analysis needs.
+              </p>
+              <a
+                href="https://medium.com/@padmajaramesh1205/mastering-power-bi-a-comprehensive-guide-0d63c8647d27"
+                class="btn common-btn"
+                target="_blank"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+      <div class="contact-heading">
+        <h1 class="my-heading text-center">LET'S CONNECT!</h1>
+      </div>
+      <div class="contact-content">
+        <div class="contact-details">
+          <h1 class="greet-heading" style="margin: 30px">
+            I'm excited to engage in meaningful conversations and explore
+            potential collaborations. Whether you have exciting opportunities,
+            questions about my portfolio, or just want to connect, feel free to
+            reach out. Looking forward to connecting with you!
+          </h1>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/padmaja-ramesh/"
+              class="social-icon"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="mailto:padmajaramesh1205@gmail.com"
+              class="social-icon"
+              target="_blank"
+              title="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a
+              href="https://medium.com/@padhu.ramsh"
+              class="social-icon"
+              target="_blank"
+              title="Medium"
+            >
+              <i class="fab fa-medium-m"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer section -->
-    <footer class="footer"> 
-        <div class="footer-content text-center"> 
-            <h4> 
-                Copyright © 2023 
-            </h4> 
-        </div> 
-    </footer> 
+    <footer class="footer">
+      <div class="footer-content text-center">
+        <h4>Copyright © 2023</h4>
+      </div>
+    </footer>
 
-    <script src= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
-        integrity= 
-"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"> 
-    </script> 
-    <script src="index.js"></script> 
-</body> 
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
 <script>
-        let slideIndex = 0;
-        
-        function showSlides() {
-            let slides = document.getElementsByClassName("slide");
-            let totalSlides = slides.length;
-        
-            // Hide all slides
-            for (let i = 0; i < totalSlides; i++) {
-                slides[i].style.display = "none";
-            }
-        
-            slideIndex++;
-            if (slideIndex > totalSlides) { slideIndex = 1 }
-        
-            // Display the current slide
-            slides[slideIndex - 1].style.display = "block";
-        
-            setTimeout(showSlides, 3000); // Change slide every 3 seconds
-        }
-        
-        function plusSlides(n) {
-            let slides = document.getElementsByClassName("slide");
-            let totalSlides = slides.length;
-            slideIndex += n;
-        
-            if (slideIndex > totalSlides) { slideIndex = 1 }
-            if (slideIndex < 1) { slideIndex = totalSlides }
-        
-            for (let i = 0; i < totalSlides; i++) {
-                slides[i].style.display = "none";  
-            }
-        
-            slides[slideIndex - 1].style.display = "block";
-        }
-        
-        // Initial call
-        showSlides();
-        
-    </script>
-    
+  let slideIndex = 0;
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    let totalSlides = slides.length;
+
+    // Hide all slides
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+    if (slideIndex > totalSlides) {
+      slideIndex = 1;
+    }
+
+    // Display the current slide
+    slides[slideIndex - 1].style.display = "block";
+
+    setTimeout(showSlides, 3000); // Change slide every 3 seconds
+  }
+
+  function plusSlides(n) {
+    let slides = document.getElementsByClassName("slide");
+    let totalSlides = slides.length;
+    slideIndex += n;
+
+    if (slideIndex > totalSlides) {
+      slideIndex = 1;
+    }
+    if (slideIndex < 1) {
+      slideIndex = totalSlides;
+    }
+
+    for (let i = 0; i < totalSlides; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+  }
+
+  // Initial call
+  showSlides();
+</script>
