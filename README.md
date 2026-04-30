@@ -6,20 +6,20 @@
 [linkedin]: www.linkedin.com/in/padmaja-ramesh
 <!-- End links -->
 
-### Hi 👋, I am [Padmaja][website]
+### Hi 👋, I am Padmaja [website]
 
-## I am [passionate] in @[Software Development / Testing ]
-- 🔭 I’m currently working on [Self building]
+## I am passionate in @ Software Development / Testing
+- 🔭 I’m currently working on Self building
 
-- 🌱 I’m currently learning [Playwright testing with Java / Javascript]
+- 🌱 I’m currently learning Playwright testing with Java / Javascript
 
-- 👯 I’m looking to collaborate on [AI/LLM related Projects]
+- 👯 I’m looking to collaborate on AI/LLM related Projects
 
-- 🤔 I’m looking for help with [diving deep into real-world projects and getting hands-on experience]
+- 🤔 I’m looking for help with diving deep into real-world projects and getting hands-on experience
 
-- 💬 Ask me about [building scalable full-stack applications]
+- 💬 Ask me about building scalable full-stack applications
 
-- ⚡ Fun fact: I love [Baking, Making flower arrangements, Garlands]
+- ⚡ Fun fact: I love Baking, Making flower arrangements, Garlands
 
   
 
